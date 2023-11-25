@@ -1,6 +1,5 @@
 
-Check out full tutorial here : https://www.youtube.com/watch?v=UbF4srCAf0c&t=139s 
-Do not forget to subscribe
+
 
 Django 3 Social Network | Social media
 
@@ -27,15 +26,15 @@ CREATING A FOLLOWER AND FOLLOWING VIA DJANGO SHELL.
 3. Import model Follower - from core.models import Follower
 4. Import model Following - from core.models import Following
 
-mosesi following noel
+'A' following 'B'
 
-mosesi is a follower and noel is following
-disciple = 'mosesi' and leader = 'noel'
+'A' is a follower and 'B' is following
+disciple = 'A' and leader = 'B'
 
 
 follower = Follower()
-leader = User.objects.get(username='noel')
-disciple = User.objects.get(username='mosesi')
+leader = User.objects.get(username='B')
+disciple = User.objects.get(username='A')
 
 following = Following()
 leader.follower_set.create(follower_user=disciple)
@@ -50,6 +49,4 @@ a.save()
 
 
 
-
-![alt text](https://github.com/MoTechStore/socialnetwork/blob/main/thumbnail.jpg)	
    
