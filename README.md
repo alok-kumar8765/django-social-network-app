@@ -82,6 +82,4 @@ a.save()
 
   - Step 1 : Login/Sign Up on "<b>pythonanywhere.com</b>"
   - Step 2 : you will see 3 columns like image in below, click on "bash" as shown infirst column that is console. you will get a terminal.<br>
-<p align="center">
-  <img src="/screenshot/Capture.png" width="350" title="Dashboard" alt="dashboard">
-</p>
+![Screenshot](https://github.com/alok-kumar8765/django-social-network-app/blob/main/screenshot/Capture.PNG)
