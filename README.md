@@ -81,4 +81,4 @@ a.save()
 # Deploye Your Code on "<b><a href='pythonanywhere.com'>pythonanywhere.com</a></b>"
   - Step 1 : Login/Sign Up on "<b>pythonanywhere.com</b>"
   - Step 2 : you will see 3 columns like image in below, click on "bash" as shown infirst column that is console. you will get a terminal.<br>
-![Screenshot](Capture.PNG)
+![Screenshot](screenshot/Capture.PNG)
