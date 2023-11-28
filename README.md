@@ -21,10 +21,22 @@ Django 3 Social Network | Social media
 
 CREATING A FOLLOWER AND FOLLOWING VIA DJANGO SHELL.
 
-1. Launch Django shell - python manage.py shell
-2. Import model User - from django.contrib.auth.models import User
-3. Import model Follower - from core.models import Follower
-4. Import model Following - from core.models import Following
+1. Launch Django shell -
+```
+python manage.py shell
+```
+2. Import model User -
+```
+from django.contrib.auth.models import User
+```
+3. Import model Follower -
+```
+from core.models import Follower
+```
+4. Import model Following -
+```
+from core.models import Following
+```
 
 'A' following 'B'
 
@@ -53,7 +65,7 @@ disciple.following_set.create(following_user=leader)
 
 
 > CREATING A POST VIA TERMINAL
-    > import model Post -
+- import model Post -
 ```
 from core.models import Post
 ```
