@@ -31,20 +31,21 @@ CREATING A FOLLOWER AND FOLLOWING VIA DJANGO SHELL.
 'A' is a follower and 'B' is following
 disciple = 'A' and leader = 'B'
 
+<code>
+follower = Follower()<br>
+</code>
+leader = User.objects.get(username='B')<br>
+disciple = User.objects.get(username='A')<br>
 
-follower = Follower()
-leader = User.objects.get(username='B')
-disciple = User.objects.get(username='A')
-
-following = Following()
-leader.follower_set.create(follower_user=disciple)
-disciple.following_set.create(following_user=leader)
+following = Following()<br>
+leader.follower_set.create(follower_user=disciple)<br>
+disciple.following_set.create(following_user=leader)<br>
 
 
 
 CREATING A POST VIA TERMINAL
 import model Post - from core.models import Post
-a = Post(user_id=3, post_text='Hi MotechApp')
+a = Post(user_id=1, post_text='Hi Lucifer')
 a.save()
 
 
