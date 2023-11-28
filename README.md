@@ -1,7 +1,4 @@
-![image](https://github.com/alok-kumar8765/django-social-network-app/assets/85283226/968e1c80-f85b-476f-8295-da1bc0403e7f)
-
-
-Django 3 Social Network | Social media
+# Django 3 Social Network | Social media
 
 1. Create project motechapp - django-admin startproject motechapp
 2. Change directory (cd motechapp)and create app core - django-admin startapp core
@@ -83,6 +80,7 @@ a.save()
 <ul> 
     <li>- Step 1 : Login/Sign Up on "<b>pythonanywhere.com</b>"</li>
     <li>- Step 2 : you will see 3 columns like image in below, click on "bash" as shown infirst column that is console. you will get a terminal.</li><br>
+    
 ![Screenshot](https://github.com/alok-kumar8765/django-social-network-app/blob/main/screenshot/Capture.PNG)
 <br>
     <li>- Step 3 : clone your git repo :</li>
@@ -124,9 +122,12 @@ ALLOWED_HOSTS = ["*"]
     - As you can see these few things need to config in image below.
 </li>
 <br>
+
+![image](https://github.com/alok-kumar8765/django-social-network-app/assets/85283226/968e1c80-f85b-476f-8295-da1bc0403e7f)
+
 ![Screenshot](https://github.com/alok-kumar8765/django-social-network-app/blob/main/screenshot/Capture2.PNG)
-<br>
-![Screenshot}(https://github.com/alok-kumar8765/django-social-network-app/blob/main/screenshot/Capture3.PNG)
+![Screenshot](https://github.com/alok-kumar8765/django-social-network-app/blob/main/screenshot/Capture3.PNG)
+
 <br>
 <li> Step 9 : Edit WSGI File to Point our Django Project to Server.</li><br>
 
